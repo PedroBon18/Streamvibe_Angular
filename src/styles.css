@@ -1,3 +1,13 @@
+:root {
+--font-serifada: sans-serif;
+--font-prata: "Prata";
+
+--color-primaria: #1f1f1f;
+--color-secundaria: #b00610;
+
+}
+
+
 
 *{
   margin: 0;
@@ -5,9 +15,9 @@
 }
 
 body {
-  background-color: #1f1f1f;
-  font-family: sans-serif;
-  color: #fff;
+  background-color: var(--color-primaria);
+  font-family: var(--font-serifada);
+  color: var(--color-secundaria);
   /* background-image: url("/Group1.jpg"); */
   background-position: center;
   background-size: cover;
